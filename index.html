@@ -17,17 +17,18 @@
         <![endif]-->
         <div id="content">
             <h1> Et si on jouait ensemble</h1>
-            <button class="buttonValide"> Jouer</button>
             <h2> Je génére un nombre aléatoire à toi de le trouver le plus vite possible</h2>
 
-            <form method="POST">
+            <!-- <form method="POST"> -->
                 <label>
                     Enregistre ton nombre ici : 
-                    <input type="text" size="3" name="test">
+                    <input type="number" size="3" id="essai">
                 </label>
                 <button class="buttonJeu">Je test avec ce nombre </button>
                 <button  class="buttonReset"> Recommencer </button>
-            </form>
+
+                <p id="resultat"> Resultat : </p>
+            <!-- </form> -->
         </div>
 
         <script src="js.js"></script>
